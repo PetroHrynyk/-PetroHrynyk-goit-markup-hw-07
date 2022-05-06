@@ -117,13 +117,13 @@
 
 .input-icon {
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 15px;
-    transform: translateY(25%);
+    transform: translateY 5%;
 
     display: inline-block;
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -224,6 +224,7 @@ textarea {
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
+    user-select: none;
 
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
