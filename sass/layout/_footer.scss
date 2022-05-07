@@ -116,6 +116,11 @@
 
     color: var(--white-text-color);
 }
+.footer-submit__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .footer-submit__input {
     width: 358px;
@@ -142,8 +147,9 @@
 
     border: none;
     margin: 0;
-    padding: 8px 29px;
+    padding: 8px 28px;
     border-radius: 4px;
+   
 
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -163,12 +169,16 @@
     min-height: 43px;
     margin-left: 12px;
 
-    &::after {
-        content: "";
-        display: inline-block;
-        width: 24px;
-        height: 20px;
-        margin-left: 10px;
-        background-image: url(../images/send.svg);
-    }
+    // &::after {
+    //     content: "";
+    //     display: inline-block;
+    //     width: 24px;
+    //     height: 20px;
+    //     margin-left: 10px;
+    //     background-image: url(../images/send.svg);
+    // }
+}
+.send{
+    margin-left: 10px;
+    transform: translateY(5px);
 }
